@@ -1,0 +1,245 @@
+body{
+    overflow: hidden;
+}
+.cabecera{
+    background-color: rgb(48, 46, 46);
+    color: white;
+    display: flex;
+    width: 100%;
+}
+#titulo{
+    margin-left: 20px;
+}
+#navegacion{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    justify-content: end;
+    align-items: center;
+    overflow: hidden;
+    margin:  auto;
+    
+}
+#navtext{
+    margin: 10px;
+    
+}
+#cerrars{
+    color: white;
+    background-color: rgb(36, 177, 219);
+    width: 110px;
+    height: 35px;
+    border-radius: 7px;
+    border: 0px;
+    margin-right: 20px;
+    margin-top: 0px;
+      
+}
+.container{
+    
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.perfil{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 800px;
+    height: 590px;
+    border: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: antiquewhite;
+    border: 2px solid rgb(233, 222, 222);
+}
+.arriba{
+    background-color: rgb(36, 177, 219);
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#icono{
+    border-radius: 50%;
+    width: 33%;
+    height: 50%;
+    border: 3.3px solid white;
+    display: flex;
+    margin-top: -55px;
+    margin-left: 40px;
+    
+}
+.name{
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    
+}
+.location{
+    margin-left: 40px;
+    margin-top: 13px;
+    color: rgb(138, 133, 133);
+}
+.capacidades{
+    margin-left: 40px;
+    margin-top: 13px;
+    color: rgb(138, 133, 133);
+}
+.sobremi{
+    margin-left: 40px;
+    margin-top: 13px;
+    color: rgb(138, 133, 133);
+}
+button{
+    border: 0px ;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: -9px;
+    background-color: white;
+    color: rgb(0, 162, 255);
+
+}
+
+
+.solicitudes{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(233, 222, 222);
+    width: 420px;
+    height: 300px;
+    position: absolute;
+    top: 11.4%;
+    left: 65%;
+    border-radius: 10px;
+    font-family: sans-serif;
+    
+}
+#titulosoli{
+    text-align: start;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+#avatar1{
+    border-radius: 20%;
+    height: 85px;
+    border: 3.3px solid rgb(36, 177, 219);;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#avatar2{
+    border-radius: 20%;
+    height: 90px;
+    border: 3.3px solid rgb(36, 177, 219);;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#coorrecto1{
+    border-radius: 50%;
+    border: 1.4px solid rgb(219, 84, 167);
+    width: 60%;
+    color: rgb(219, 84, 167);;
+}
+#coorrecto2{
+    border-radius: 50%;
+    border: 1.4px solid rgb(219, 84, 167);
+    width: 60%;
+    color: rgb(219, 84, 167);;
+}
+#malardo{
+    border-radius: 50%;
+    width: 61%;
+    border: 1.4px solid rgb(219, 84, 167);
+    color: rgb(219, 84, 167);
+    font-size: large;
+
+}
+
+
+.educacion{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(233, 222, 222);
+    width: 800px;
+    height: 200px;
+    color: black;
+    position: absolute;
+    top: 76%;
+    left: 4%;
+    border-radius: 10px;
+
+}
+#tituloed{
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+#texted{
+    margin-left: 20px;
+    font-size: large;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-family: sans-serif;
+}
+.conexiones{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(233, 222, 222);
+    width: 420px;
+    height: 500px;
+    color: black;
+    border-radius: 10px;
+    position: absolute;
+    left: 65%;
+    top: 45%;
+    font-family: sans-serif;
+}
+#tituloconex{
+
+    font-family: sans-serif;
+    margin-left: 30px;
+
+}
+#contador1{
+    margin-left: 330px;
+    margin-top: -48px;
+}
+#contador{
+    margin-left: 300px;
+    margin-top: -55px;
+}
+#avatar3{
+    border-radius: 50%;
+    height: 72px;
+    border: 3.3px solid rgb(36, 177, 219);;
+    margin-left: 10px;
+    margin-right: 25px;
+    
+}
+#avatar4{
+    border-radius: 50%;
+    height: 72px;
+    border: 3.3px solid rgb(36, 177, 219);;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+#avatar5{
+    border-radius: 50%;
+    height: 72px;
+    border: 3.3px solid rgb(36, 177, 219);;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+#avatar6{
+    border-radius: 50%;
+    height: 72px;
+    border: 3.3px solid rgb(36, 177, 219);;
+    margin-left: 10px;
+    margin-right: 25px;
+    
+}
